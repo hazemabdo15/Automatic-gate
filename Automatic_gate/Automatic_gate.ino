@@ -27,7 +27,7 @@ void loop(){
      enterflag =  1; }
    if(enterflag == 1){
       counter++;
-      if(counter < 5){
+      if(counter <= 5){
       ser.write(Open);
       delay(1000);
       ser.write(Close);}
